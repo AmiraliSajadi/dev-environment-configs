@@ -84,7 +84,7 @@ _fzf_comprun() {
 }
 
 # ---- Eza (better ls) -----
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --color=always --icons=always --git"
 
 # ---- MiniConda initialization -----
 source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh
