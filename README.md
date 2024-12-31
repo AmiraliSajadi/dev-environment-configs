@@ -17,7 +17,7 @@ These configurations are tested on macOS and Linux (Arch). Some, like Neovim and
 ## How to Use
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+git clone https://github.com/AmiraliSajadi/dev-environment-configs.git
 ```
 2. Navigate to the directory:
 ```bash
