@@ -1,14 +1,21 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# # Initialization code that may require console input (password prompts, [y/n]
+# # confirmations, etc.) must go above this block; everything else may go below.
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
+#
+# source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+#
+# # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+# Alternatively use oh-my-posh
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# oh-my-posh
+eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/zen.toml)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/EDM116-newline.omp.json)"
 
 # history setup
 HISTFILE=$HOME/.zhistory
