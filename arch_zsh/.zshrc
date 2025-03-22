@@ -12,10 +12,6 @@ bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
 
-# -------- STARSHIP --------
-eval "$(starship init zsh)"
-
-
 # -------- EZA (better ls) --------
 alias ls="eza --icons=always"
 
@@ -56,3 +52,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # -------- ZSH-SYNTAX-HIGHLIGHTING --------
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# -------- CUSTOM WALLPAPER SOLUTION --------
+alias set-wall="$HOME/.config/wallpaper_solution/set-wall"
